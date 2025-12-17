@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#message">Message Me</a></li>
+        <li><a href="lab2.html">Lab 2</a></li>
+        <li><a href="../index.html">Lab 3</a></li>
+      </ul>
+    </nav>
+
+    <section class="min-h-screen flex mt-11 mb-11 justify-center lg:p-20 px-4">
+      <div class="w-full max-w-screen-lg flex justify-center items-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+          
+          <!--  box -->
+          <div class="bg-[#eee9e9] overflow-scroll w-full h-64 sm:h-80 md:h-[1000px] rounded-xl flex justify-center flex-col items-center md:row-span-2 ">
+            <img src="euri.jpg" alt="Placeholder Image" class="max-w-full max-h-full rounded-[50%] h-[200px] w-[190px]" />
+            <span class="mt-4 text-2xl font-bold">Eurika Adamos</span>
+            <span class="text-lg mt-[-8px] font-semibold">Full Stack Developer</span>
+            <span class="mt-4 text-[19px] font-bold">Contact:</span>
+            <span class=" text-1xl font-bold">09566773008 / eurikasomada@gmail.com</span>
+            <span class="mt-4 text-[19px] font-bold">About Me:</span>
+            <p class="text-center px-6">
+              Hello! I'm Eurika Adamos, a passionate Full Stack Developer with expertise in creating dynamic and responsive web applications. I love coding and bringing ideas to life through technology.
+
+        </div>
+
+          <!-- Box 2 -->
+          <div class="bg-[#dedbdb] w-full h-64 sm:h-80 md:h-[500px] rounded-xl flex p-10">
+            <h1 class="  text-3xl font-bold " >Skills:</h1>
+            <ul class="mt-10">
+              
+                <li class="text-xl font-semibold mb-4">- HTML, CSS, JavaScript</li>
+                <li class="text-xl font-semibold mb-4">- React,</li>
+                <li class="text-xl font-semibold mb-4">- Node.js, Express</li>
+                <li class="text-xl font-semibold mb-4">- SQL</li>
+                <li class="text-xl font-semibold mb-4">- Git, GitHub</li>
+            </ul>
+          </div>
+
+          <!-- Box 3 -->
+          <div class="bg-[#dedbdb] w-full h-64 sm:h-80 md:h-[500px] flex-col rounded-xl flex  p-10">
+           <div> <span class="  text-3xl font-bold " >Message Me:</span></div>
+          <div class="mt-10 mr-10">
+            <label>Name</label>
+            <input type="text" class="border-2 border-gray-400 rounded-md w-full p-2 mt-2 mb-4" />
+            <label>Email</label>
+            <input type="email" class="border-2 border-gray-400 rounded-md w-full p-2 mt-2 mb-4" />
+            <button class="bg-blue-500 text-white font-bold py-2 w-full px-4 rounded-md hover:bg-blue-600">Send</button>
+        </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="border-t-2 border-gray-300 flex justify-center p-4">
+      <p class="text-gray-600"> &copy; 2025 Web Programming</p>
+    </footer>
+  </body>
+</html>
